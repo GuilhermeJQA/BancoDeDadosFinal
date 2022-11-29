@@ -1,0 +1,47 @@
+#  
+  1-Qual a quantidade de clientes registrados? 
+    SELECT COUNT(*) FROM DBO.CLIENTES
+  
+  2- Quantos clientes tem mais de 30 anos?
+    SELECT COUNT(IDADE)
+    FROM DBO.CLIENTES
+    WHERE IDADE > 30;
+  
+  3- Quantas formas de pagamento existem?
+    SELECT COUNT(IDADE)
+    FROM DBO.CLIENTES
+    WHERE IDADE > 30;
+    
+  4- Qual o ID da forma de pagamento "Cartão de crédito"?
+      SELECT ID
+      FROM FORMA_DE_PAGAMENTO
+      WHERE DESCRICAO = 'Cartão de crédito'
+    
+  5- Qual os nomes dos clientes que possuem mais de 20 anos?
+      SELECT (NOME)
+      FROM DBO.CLIENTES
+      WHERE IDADE >20
+     
+  6- Quais clientes possuem como forma de pagamento PIX
+      SELECT COUNT(NOME)
+      FROM DBO.CLIENTES
+      WHERE ID_FORMA_DE_PAGAMENTO = 3
+      
+  7- Somente o nome dos clientes em ordem alfabética
+     SELECT (NOME)
+     FROM DBO.CLIENTES
+     ORDER BY NOME ASC;
+      
+  8- Quantas formas de pagamento distintas existem?
+      SELECT COUNT(DISTINCT DESCRICAO)
+      FROM FORMA_DE_PAGAMENTO
+       
+  9- Todas as formas de pagamento agrupadas em ordem alfabética
+       SELECT DESCRICAO
+       FROM FORMA_DE_PAGAMENTO
+       ORDER BY DESCRICAO ASC
+     
+  10- Quantos clientes assinaram plano família?
+       SELECT COUNT(*)
+       FROM DBO.CLIENTES 
+       WHERE ID_PLANO = 2  
