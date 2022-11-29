@@ -1,0 +1,13 @@
+# O projeto é uma plataforma de Streaming multiplataforma,que de início precisa de um sistema de cadastro com informações do tipo
+ (email, telefone, nome, idade, senha de login, e cartão de crédito), com esse cadastro é feito o login com o email e senha fornecidos.
+ (Dados que devem ser de extremo sigilo, e que  devem ser mantidos até que se encerre a conta).
+ 
+ Já dentro do sistema o cliente escolhe o seu plano, podendo ser 3, Individual (somente um dispositivo, qualidade hd),
+ Família (até 6 aparelhos e qualidade hd) e MAX (até 10 aparelhos e qualidade 4k). (É necessário que fique registrado o plano de cada cliente e seu preço).
+ 
+ Depois de ter um plano contratado o cliente tem acesso a centenas de filmes e séries todos categorizados para facilitar a navegação, 
+ podendo criar uma lista dos conteúdos que deseja assistir, também tendo um sistema de filmes ou séries não finalizados, e de filmes já assistidos
+ (Cada filme ou série deve ter sua categoria podendo ser mais de uma, além disso o sistema deve manter o histórico e dados de conteúdos assistidos.
+ Sistema de recomendação de filmes e séries baseados em dados coletados das horas assistidas de cada assinante. Compilando as obras assistidas,
+ em sua completude ou não, e recomendando obras que são consumidas por vários clientes, estabelecendo redes de conexão entre várias obras
+ e recomendando em base da similaridade de obras escolhidas por cada um cliente.
