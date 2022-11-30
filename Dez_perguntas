@@ -8,9 +8,8 @@
     WHERE IDADE > 30;
   
   3- Quantas formas de pagamento existem?
-    SELECT COUNT(IDADE)
-    FROM DBO.CLIENTES
-    WHERE IDADE > 30;
+      SELECT COUNT *
+      FROM DBO.FORMA_DE_PAGAMENTO
     
   4- Qual o ID da forma de pagamento "Cartão de crédito"?
       SELECT ID
